@@ -1,0 +1,30 @@
+{
+  "name": "continue-mongo",
+  "version": "1.0.0",
+  "description": "Node.js, Mongo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "antonywulf",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "csurf": "^1.11.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.10.0",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.19"
+  }
+}
